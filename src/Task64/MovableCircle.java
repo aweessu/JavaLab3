@@ -2,7 +2,7 @@ package Task64;
 
 public class MovableCircle implements Movable {
     private int radius;
-    private MovablePoint center; // композиция
+    private MovablePoint center;
 
     public MovableCircle(int x, int y, int xSpeed, int ySpeed, int radius) {
         this.center = new MovablePoint(x, y, xSpeed, ySpeed);
